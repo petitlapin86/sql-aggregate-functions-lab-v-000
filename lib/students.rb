@@ -10,6 +10,7 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
+  "SELECT COUNT (*) FROM student_spec.rb WHERE tardies";
 end
 
 def average_gpa_for_9th_grade
