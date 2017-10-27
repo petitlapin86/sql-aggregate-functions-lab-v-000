@@ -7,7 +7,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  "SELECT AVG #average_student_gpa FROM insert.sql;"
+  "SELECT AVG #average_student_gpa FROM insert;"
 end
 
 def total_tardies_for_all_students
