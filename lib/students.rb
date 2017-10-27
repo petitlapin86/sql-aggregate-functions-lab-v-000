@@ -13,7 +13,7 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-"SELECT COUNT (*) FROM students WHERE tardies;"
+"SELECT COUNT (*) FROM tardies;"
 end
 
 def average_gpa_for_9th_grade
